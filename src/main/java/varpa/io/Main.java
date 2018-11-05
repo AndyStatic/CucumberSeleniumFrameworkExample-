@@ -4,6 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        //Test Commit via IntelliJ
+        System.out.print("Hello World");
     }
 }
