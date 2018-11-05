@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582a9524-92a3-4413-9aa9-09548f795c83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/GoogleResultsPage.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/GoogleSearchPage.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Features/GoogleSearch.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,7 +37,7 @@
         </entry>
       </file>
       <file leaf-file-name="GoogleSearch.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Features/GoogleSearch.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
@@ -152,12 +150,6 @@
               <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="CucumberSeleniumFrameworkExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CucumberSeleniumFrameworkExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,6 +186,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberSeleniumFrameworkExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,6 +213,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrejs K\IdeaProjects\CucumberSeleniumFrameworkExample\src\test\java" />
       <recent name="C:\Users\Andrejs K\IdeaProjects\CucumberSeleniumFrameworkExample\src" />
     </key>
   </component>
@@ -319,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541437983064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Steps files moved into Steps folder">
+      <created>1541438239139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541438239139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -365,7 +373,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IntelliJ to GitHub commit" />
     <MESSAGE value="First feature file with steps and libraries. Cucumber for Java plugin required as well" />
-    <option name="LAST_COMMIT_MESSAGE" value="First feature file with steps and libraries. Cucumber for Java plugin required as well" />
+    <MESSAGE value="Steps files moved into Steps folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Steps files moved into Steps folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -402,7 +411,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Features/GoogleSearch.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
