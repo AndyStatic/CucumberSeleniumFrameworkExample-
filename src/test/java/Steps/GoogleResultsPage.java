@@ -1,19 +1,22 @@
 package Steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 public class GoogleResultsPage {
     @Then("^list with results is displayed$")
     public void listWithResultsIsDisplayed() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        System.out.println("list with results is displayed");
     }
 
     @And("^results list contains \"([^\"]*)\" link$")
-    public void resultsListContainsLink(String arg0) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void resultsListContainsLink(String linkText) throws Throwable {
+        System.out.println("results list contains");
+    }
+
+    @When("^I click the link with title \"([^\"]*)\"$")
+    public void iClickTheLinkWithTitle(String linkText) throws Throwable {
+        System.out.println("I click the link with title");
     }
 }

@@ -1,26 +1,22 @@
 package Steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 public class GoogleSearchPage {
-    @Given("^I navigation to google search page$")
-    public void iNavigationToGoogleSearchPage() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Given("^I navigate to google search page$")
+    public void iNavigateToGoogleSearchPage() throws Throwable {
+        System.out.println("I navigate to google search page");
     }
 
     @When("^I enter the search keyword \"([^\"]*)\"$")
-    public void iEnterTheSearchKeyword(String arg0) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void iEnterTheSearchKeyword(String keyword) throws Throwable {
+        System.out.println("I enter the search keyword");
     }
 
     @And("^I press the \"([^\"]*)\" button$")
-    public void iPressTheButton(String arg0) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void iPressTheButton(String button) throws Throwable {
+        System.out.println("I press the");
     }
 }
