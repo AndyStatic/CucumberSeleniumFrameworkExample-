@@ -15,6 +15,7 @@ public class GoogleSearchPage extends BaseUtil {
 
     public GoogleSearchPage(BaseUtil base){
         this.base = base;
+        this.googleSearchPageLocators = new GoogleSearchPageLocators();
     }
 
 
