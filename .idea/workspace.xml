@@ -4,7 +4,6 @@
     <list default="true" id="582a9524-92a3-4413-9aa9-09548f795c83" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" afterPath="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoogleSearch.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GoogleSearch.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cucumber.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cucumber.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/cucumber.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1748">
@@ -545,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541789108407</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="json report example via TestRunner">
+      <created>1541789463198</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1541789463198</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -640,7 +646,8 @@
     <MESSAGE value="Steps renamed to Step&#10;Pages placeholders created" />
     <MESSAGE value="TestRunner class, plugins and dependencies to run feature files via maven, i.e. mvn test" />
     <MESSAGE value="TestRunner class, plugins and dependencies to run feature files via maven, i.e. mvn test changed from junit to TestNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestRunner class, plugins and dependencies to run feature files via maven, i.e. mvn test changed from junit to TestNG" />
+    <MESSAGE value="json report example via TestRunner" />
+    <option name="LAST_COMMIT_MESSAGE" value="json report example via TestRunner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -923,14 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -945,6 +944,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1748">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
