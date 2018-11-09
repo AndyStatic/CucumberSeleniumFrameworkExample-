@@ -1,11 +1,14 @@
 package Steps;
 
+import Locators.GoogleSearchPageLocators;
 import Steps.Base.BaseUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 public class GoogleSearchPage extends BaseUtil {
+
+    private GoogleSearchPageLocators googleSearchPageLocators;
 
     private BaseUtil base;
 
@@ -16,7 +19,7 @@ public class GoogleSearchPage extends BaseUtil {
 
     @Given("^I navigate to google search page$")
     public void iNavigateToGoogleSearchPage() throws Throwable {
-        base.driver.navigate().to("https://www.google.com");
+        base.driver.navigate().to(googleSearchPageLocators.GOOGLE_SEACH_PAGE);
     }
 
     @When("^I enter the search keyword \"([^\"]*)\"$")
