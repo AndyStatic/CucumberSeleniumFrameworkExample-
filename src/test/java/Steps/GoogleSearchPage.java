@@ -32,6 +32,7 @@ public class GoogleSearchPage extends BaseUtil {
     @And("^I press the \"([^\"]*)\" button$")
     public void iPressTheButton(String button) throws Throwable {
         if (button.equals("Google Search"))
+            //change to .submit() after waitTime
             base.driver.findElement(By.xpath(googleSearchPageLocators.SEARCH_BUTTON_XPATH_LOCATOR)).click();
     }
 }
