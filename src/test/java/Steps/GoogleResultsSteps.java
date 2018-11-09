@@ -9,13 +9,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-public class GoogleResultsPage extends BaseUtil {
+public class GoogleResultsSteps extends BaseUtil {
 
     private GoogleResultsPageLocators googleResultsPageLocators;
 
     private BaseUtil base;
 
-    public GoogleResultsPage(BaseUtil base){
+    public GoogleResultsSteps(BaseUtil base){
         this.base = base;
         this.googleResultsPageLocators = new GoogleResultsPageLocators();
     }

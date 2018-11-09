@@ -7,13 +7,13 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 
-public class GoogleSearchPage extends BaseUtil {
+public class GoogleSearchSteps extends BaseUtil {
 
     private GoogleSearchPageLocators googleSearchPageLocators;
 
     private BaseUtil base;
 
-    public GoogleSearchPage(BaseUtil base){
+    public GoogleSearchSteps(BaseUtil base){
         this.base = base;
         this.googleSearchPageLocators = new GoogleSearchPageLocators();
     }

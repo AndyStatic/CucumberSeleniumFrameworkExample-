@@ -13,13 +13,13 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LoginExamplePage extends BaseUtil {
+public class LoginExampleSteps extends BaseUtil {
 
     private LoginExamplePageLocators loginExamplePageLocators;
 
     private BaseUtil base;
 
-    public LoginExamplePage(BaseUtil base){
+    public LoginExampleSteps(BaseUtil base){
         this.base = base;
         this.loginExamplePageLocators = new LoginExamplePageLocators();
     }
