@@ -21,6 +21,7 @@ public class GoogleSearchSteps extends BaseUtil {
 
     @Given("^I navigate to google search page$")
     public void iNavigateToGoogleSearchPage() throws Throwable {
+        //same as driver.get()
         base.driver.navigate().to(googleSearchPageLocators.GOOGLE_SEACH_PAGE);
     }
 
