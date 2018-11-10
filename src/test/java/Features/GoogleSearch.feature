@@ -8,6 +8,7 @@ Feature: Google Search Page
     Then list with results is displayed
     And results list contains "Selenium - Web Browser Automation" link
 
+    @TagExample
   Scenario: Login to login example page
     Given I navigate to google search page
     When I enter the search keyword "login example page"
