@@ -6,6 +6,10 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GoogleSearchSteps extends BaseUtil {
 
@@ -13,9 +17,12 @@ public class GoogleSearchSteps extends BaseUtil {
 
     private BaseUtil base;
 
+    public WebDriverWait explicitWait;
+
     public GoogleSearchSteps(BaseUtil base){
         this.base = base;
         this.googleSearchPageLocators = new GoogleSearchPageLocators();
+        explicitWait=new WebDriverWait(base.driver, 60);
     }
 
 
@@ -27,13 +34,16 @@ public class GoogleSearchSteps extends BaseUtil {
 
     @When("^I enter the search keyword \"([^\"]*)\"$")
     public void iEnterTheSearchKeyword(String keyword) throws Throwable {
-        base.driver.findElement(By.id(googleSearchPageLocators.SEARCH_BOX_ID_LOCATOR)).sendKeys(keyword);
+        WebElement searchBox = explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.id(googleSearchPageLocators.SEARCH_BOX_ID_LOCATOR)));
+        searchBox.sendKeys(keyword);
     }
 
     @And("^I press the \"([^\"]*)\" button$")
     public void iPressTheButton(String button) throws Throwable {
-        if (button.equals("Google Search"))
+        if (button.equals("Google Search")) {
             //change to .submit() after waitTime
-            base.driver.findElement(By.xpath(googleSearchPageLocators.SEARCH_BUTTON_XPATH_LOCATOR)).click();
+            WebElement searchButton = explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(googleSearchPageLocators.SEARCH_BUTTON_XPATH_LOCATOR)));
+            searchButton.click();
+        }
     }
 }
