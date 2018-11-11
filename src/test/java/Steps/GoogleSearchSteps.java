@@ -17,12 +17,10 @@ public class GoogleSearchSteps extends BaseUtil {
 
     private BaseUtil base;
 
-    public WebDriverWait explicitWait;
-
     public GoogleSearchSteps(BaseUtil base){
         this.base = base;
         this.googleSearchPageLocators = new GoogleSearchPageLocators();
-        explicitWait=new WebDriverWait(base.driver, 60);
+        this.explicitWait=new WebDriverWait(base.driver, 60);
     }
 
 
@@ -42,7 +40,7 @@ public class GoogleSearchSteps extends BaseUtil {
     public void iPressTheButton(String button) throws Throwable {
         if (button.equals("Google Search")) {
             //change to .submit() after waitTime
-            WebElement searchButton = explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(googleSearchPageLocators.SEARCH_BUTTON_XPATH_LOCATOR)));
+            WebElement searchButton = explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath(googleSearchPageLocators.SEARCH_BUTTON_XPATH_LOCATOR)));
             searchButton.click();
         }
     }

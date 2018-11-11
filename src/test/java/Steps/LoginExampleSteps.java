@@ -8,6 +8,9 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.util.ArrayList;
@@ -22,6 +25,7 @@ public class LoginExampleSteps extends BaseUtil {
     public LoginExampleSteps(BaseUtil base){
         this.base = base;
         this.loginExamplePageLocators = new LoginExamplePageLocators();
+        this.explicitWait=new WebDriverWait(base.driver, 60);
     }
 
     @Then("^I navigate to page with title \"([^\"]*)\"$")
@@ -31,12 +35,17 @@ public class LoginExampleSteps extends BaseUtil {
 
     @And("^I press the \"([^\"]*)\" button on login example page$")
     public void iPressTheButtonOnLoginExamplePage(String button) throws Throwable {
-        if (button.equals("Login"))
-            base.driver.findElement(By.xpath(loginExamplePageLocators.LOGIN_BUTTON_XPATH_LOCATOR)).click();
+        if (button.equals("Login")) {
+            WebElement loginButton = explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(loginExamplePageLocators.LOGIN_BUTTON_XPATH_LOCATOR)));
+            loginButton.click();
+        }
     }
 
     @When("^I enter email address and password via DataTable$")
     public void iEnterEmailAddressAndPassword(DataTable dataTable) throws Throwable {
+
+        WebElement email = explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(loginExamplePageLocators.EMAIL_INPUT_XPATH_LOCATOR)));
+        WebElement password = explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(loginExamplePageLocators.PASSWORD_INPUT_XPATH_LOCATOR)));
 
         //Option 1 via straight access to row/column stored values
         /*
@@ -53,8 +62,8 @@ public class LoginExampleSteps extends BaseUtil {
         accounts = dataTable.asList(Account.class);
 
         for (Account account: accounts) {
-            base.driver.findElement(By.xpath(loginExamplePageLocators.EMAIL_INPUT_XPATH_LOCATOR)).sendKeys(account.email);
-            base.driver.findElement(By.xpath(loginExamplePageLocators.PASSWORD_INPUT_XPATH_LOCATOR)).sendKeys(account.password);
+            email.sendKeys(account.email);
+            password.sendKeys(account.password);
         }
 
     }
