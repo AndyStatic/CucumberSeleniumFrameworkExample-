@@ -15,6 +15,7 @@ import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class LoginExampleSteps extends BaseUtil {
 
@@ -56,7 +57,16 @@ public class LoginExampleSteps extends BaseUtil {
         System.out.println(password);
         */
 
-        //Option 2 via separate class
+        //Option 2 via maps
+        /*
+        Map<String,String> credentials = (Map<String,String>) dataTable.asMaps(String.class,String.class);
+        String email = credentials.get("email");
+        String password = credentials.get("password");
+        System.out.println(email);
+        System.out.println(password);
+        */
+        
+        //Option 3 via separate class
         List<Account> accounts = new ArrayList<Account>();
         //Store all accounts
         accounts = dataTable.asList(Account.class);

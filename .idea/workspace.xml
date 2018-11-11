@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="582a9524-92a3-4413-9aa9-09548f795c83" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/Base/BaseUtil.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/Base/BaseUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,18 +19,18 @@
       <file leaf-file-name="GoogleSearch.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginExampleSteps.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginExampleSteps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="884">
+              <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -76,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleSearchSteps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoogleSearchSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -166,9 +163,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Steps/Base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" />
       </list>
     </option>
   </component>
@@ -618,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541950417336</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Explicit wait extension">
+      <created>1541951745947</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1541951745947</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -720,7 +724,8 @@
     <MESSAGE value="Chrome and Edge drivers ref" />
     <MESSAGE value="Tag example and dryRun" />
     <MESSAGE value="Explicit wait example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explicit wait example" />
+    <MESSAGE value="Explicit wait extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explicit wait extension" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,14 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1092,14 +1089,6 @@
             <element signature="e#395#396#0" expanded="true" />
             <element signature="e#427#428#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,6 +1106,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="42" column="97" lean-forward="false" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
           <folding />
         </state>
       </provider>
