@@ -13,7 +13,6 @@ public class GoogleSearchPage extends ExplicitWaits {
     WebDriver driver;
     WebDriverWait explicitWait;
 
-
     public GoogleSearchPage(BaseUtil base){
         //Initialize the page object
         PageFactory.initElements(base.driver, this);
@@ -21,11 +20,9 @@ public class GoogleSearchPage extends ExplicitWaits {
         explicitWait = base.explicitWait;
     }
 
-    //@FindBy(id = googleSearchPageLocators.SEARCH_BOX_ID_LOCATOR)
     @FindBy(id = "lst-ib")
     public WebElement searchBox;
 
-    //@FindBy(xpath = googleSearchPageLocators.SEARCH_BUTTON_XPATH_LOCATOR)
     @FindBy(xpath = "//input[@value='Google Search' and @type='submit']")
     public WebElement searchButton;
 
