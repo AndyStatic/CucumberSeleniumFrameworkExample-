@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582a9524-92a3-4413-9aa9-09548f795c83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Config/config.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/GoogleResultsPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/GoogleSearchPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginExamplePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Pages/GoogleResultsPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Pages/GoogleSearchPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginExamplePage.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CucumberSeleniumFrameworkExample.iml" afterPath="$PROJECT_DIR$/CucumberSeleniumFrameworkExample.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,21 +23,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoogleSearch.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GoogleSearch.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="-212">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginExampleSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
+      <file leaf-file-name="GoogleSearchPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginExamplePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleResultsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageFactory.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.5/selenium-support-3.141.5.jar!/org/openqa/selenium/support/PageFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultElementLocator.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.5/selenium-support-3.141.5.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,21 +92,9 @@
       <file leaf-file-name="BaseUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleResultsSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="167" lean-forward="false" selection-start-line="41" selection-start-column="167" selection-end-line="41" selection-end-column="167" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -67,18 +102,18 @@
       <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="193">
               <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Config/config.properties">
+      <file leaf-file-name="LoginExampleSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -87,28 +122,8 @@
       <file leaf-file-name="GoogleSearchSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleResultsPageLocators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Locators/GoogleResultsPageLocators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleSearchPageLocators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Locators/GoogleSearchPageLocators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="74" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="74" />
+            <state relative-caret-position="119">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -140,22 +155,27 @@
         <option value="$PROJECT_DIR$/src/test/java/GoogleResultsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/varpa/io/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/Hooks/Hooks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Locators/GoogleSearchPageLocators.java" />
         <option value="$PROJECT_DIR$/src/test/java/Locators/GoogleResultsPageLocators.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Locators/LoginExamplePageLocators.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/LoginExamplePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Base/BaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/Config/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/GoogleResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginExamplePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/GoogleSearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Locators/GoogleSearchPageLocators.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" />
       </list>
     </option>
   </component>
@@ -194,7 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -228,14 +249,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CucumberSeleniumFrameworkExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
@@ -280,6 +293,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberSeleniumFrameworkExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,8 +333,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -654,38 +674,45 @@
       <option name="project" value="LOCAL" />
       <updated>1541957216901</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="properties file added">
+      <created>1541964902519</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1541964902519</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2018.11.11 at 18h 49m 54s.xml">
+    <history-entry file="TestRunner - 2018.11.11 at 22h 09m 33s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 18h 51m 31s.xml">
+    <history-entry file="TestRunner - 2018.11.11 at 22h 10m 35s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 18h 53m 56s.xml">
+    <history-entry file="TestRunner - 2018.11.11 at 22h 11m 22s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 18h 56m 38s.xml">
+    <history-entry file="TestRunner - 2018.11.12 at 09h 54m 23s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 18h 57m 47s.xml">
+    <history-entry file="TestRunner - 2018.11.12 at 09h 54m 55s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 18h 59m 01s.xml">
+    <history-entry file="TestRunner - 2018.11.12 at 09h 56m 41s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 19h 00m 34s.xml">
+    <history-entry file="TestRunner - 2018.11.12 at 09h 57m 40s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 19h 07m 20s.xml">
+    <history-entry file="TestRunner - 2018.11.12 at 10h 03m 08s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 19h 31m 41s.xml">
+    <history-entry file="TestRunner - 2018.11.12 at 10h 07m 43s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.11.11 at 19h 32m 03s.xml">
+    <history-entry file="TestRunner - 2018.11.12 at 10h 09m 33s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -715,7 +742,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -758,7 +785,8 @@
     <MESSAGE value="Explicit wait example" />
     <MESSAGE value="Explicit wait extension" />
     <MESSAGE value="dataTables as Maps" />
-    <option name="LAST_COMMIT_MESSAGE" value="dataTables as Maps" />
+    <MESSAGE value="properties file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties file added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -771,30 +799,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Locators/GoogleSearchPageLocators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Locators/LoginExamplePageLocators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -804,19 +808,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/GoogleSearchPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginExamplePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -834,11 +842,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/GoogleResultsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -873,7 +883,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1012,22 +1022,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginExamplePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/GoogleResultsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/cucumber.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-125">
@@ -1064,26 +1058,8 @@
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="167" lean-forward="false" selection-start-line="41" selection-start-column="167" selection-end-line="41" selection-end-column="167" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +1067,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.5/selenium-support-3.141.5.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="113" column="48" lean-forward="false" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1105,48 +1104,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.5/selenium-support-3.141.5.jar!/org/openqa/selenium/support/PageFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.5/selenium-support-3.141.5.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/GoogleSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="193">
           <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Config/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
