@@ -1,5 +1,6 @@
 package Pages;
 
+import Steps.Base.BaseUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -7,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class GoogleSearchPage {
 
-    public GoogleSearchPage(WebDriver driver){
+    public GoogleSearchPage(BaseUtil base){
         //Initialize the page object
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(base.driver, this);
     }
 
     //@FindBy(id = googleSearchPageLocators.SEARCH_BOX_ID_LOCATOR)

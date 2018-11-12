@@ -29,7 +29,7 @@ public class GoogleSearchSteps extends BaseUtil {
 
     @When("^I enter the search keyword \"([^\"]*)\"$")
     public void iEnterTheSearchKeyword(String keyword) throws Throwable {
-        googleSearchPage = new GoogleSearchPage(base.driver);
+        googleSearchPage = new GoogleSearchPage(base);
         googleSearchPage.iEnterSearchText(keyword);
     }
 
