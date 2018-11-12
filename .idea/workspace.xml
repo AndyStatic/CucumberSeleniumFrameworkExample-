@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582a9524-92a3-4413-9aa9-09548f795c83" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Steps/Utils/ExplicitWaits.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/Utils/ExplicitWaits.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
     </list>
@@ -53,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/test/java/Steps/Utils/ExplicitWaits.java" />
         <option value="$PROJECT_DIR$/src/test/java/Locators/GoogleSearchPageLocators.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" />
@@ -175,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
       </list>
     </option>
   </component>
@@ -308,6 +310,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberSeleniumFrameworkExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,15 +346,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Steps" type="462c0819:PsiDirectoryNode" />
               <item name="Hooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CucumberSeleniumFrameworkExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Steps" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CucumberSeleniumFrameworkExample" type="b2602c69:ProjectViewProjectNode" />
@@ -750,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542029987649</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="webElements are private">
+      <created>1542030263016</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1542030263016</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -830,7 +839,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hooks" />
     <MESSAGE value="Add selenium maven dependency&#10;Add Cucumber JVM: PicoContainer maven dependency for hooks&#10;Add WebDriver initialization before scenario&#10;Add navigation to Google page&#10;Add BaseUtil in order to use driver variable from other pages" />
     <MESSAGE value="Locators are moved into separate class" />
     <MESSAGE value="Google Search page and locator complete" />
@@ -855,7 +863,8 @@
     <MESSAGE value="explicit waits as extension for page level" />
     <MESSAGE value="cleaned unused code" />
     <MESSAGE value="POM models for rest of the pages, compiler plugin setup via maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="POM models for rest of the pages, compiler plugin setup via maven" />
+    <MESSAGE value="webElements are private" />
+    <option name="LAST_COMMIT_MESSAGE" value="webElements are private" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1148,7 +1157,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Utils/ExplicitWaits.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Utils/ExplicitWaits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -1237,7 +1246,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1257,7 +1266,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
