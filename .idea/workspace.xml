@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582a9524-92a3-4413-9aa9-09548f795c83" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Locators/GoogleResultsPageLocators.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Locators/LoginExamplePageLocators.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +40,8 @@
       <file leaf-file-name="GoogleSearchPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,8 +52,8 @@
       <file leaf-file-name="LoginExamplePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="224">
+              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +64,7 @@
       <file leaf-file-name="LoginExampleSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="-779">
               <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding />
             </state>
@@ -98,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleResultsPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GoogleResultsPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -110,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleResultsSteps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoogleResultsSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="459">
               <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,16 +165,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Pages/LoginExamplePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/GoogleSearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Utils/ExplicitWaits.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Locators/GoogleSearchPageLocators.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleSearchSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
       </list>
     </option>
   </component>
@@ -750,7 +743,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542020570704</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="POM models for rest of the pages, compiler plugin setup via maven">
+      <created>1542029987649</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1542029987649</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -830,7 +830,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Scenario Outline example" />
     <MESSAGE value="Hooks" />
     <MESSAGE value="Add selenium maven dependency&#10;Add Cucumber JVM: PicoContainer maven dependency for hooks&#10;Add WebDriver initialization before scenario&#10;Add navigation to Google page&#10;Add BaseUtil in order to use driver variable from other pages" />
     <MESSAGE value="Locators are moved into separate class" />
@@ -855,7 +854,8 @@
     <MESSAGE value="explicit wait on page level" />
     <MESSAGE value="explicit waits as extension for page level" />
     <MESSAGE value="cleaned unused code" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned unused code" />
+    <MESSAGE value="POM models for rest of the pages, compiler plugin setup via maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="POM models for rest of the pages, compiler plugin setup via maven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,36 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1246,18 +1216,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="-779">
           <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="224">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

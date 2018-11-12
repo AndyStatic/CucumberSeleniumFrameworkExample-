@@ -19,13 +19,13 @@ public class LoginExamplePage extends ExplicitWaits {
     }
 
     @FindBy(xpath = "//div[contains(text(),'Login')]")
-    public WebElement loginButton;
+    private WebElement loginButton;
 
     @FindBy(xpath = "//input[@name='email']")
-    public WebElement emailInput;
+    private WebElement emailInput;
 
     @FindBy(xpath = "//input[@name='password']")
-    public WebElement passwordInput;
+    private WebElement passwordInput;
 
     public void iPressLoginButton(){
         waitForElementIsClickable(driver, loginButton);

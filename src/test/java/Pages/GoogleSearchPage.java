@@ -21,10 +21,10 @@ public class GoogleSearchPage extends ExplicitWaits {
     }
 
     @FindBy(id = "lst-ib")
-    public WebElement searchBox;
+    private WebElement searchBox;
 
     @FindBy(xpath = "//input[@value='Google Search' and @type='submit']")
-    public WebElement searchButton;
+    private WebElement searchButton;
 
     //Business Logic
 
