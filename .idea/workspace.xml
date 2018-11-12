@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582a9524-92a3-4413-9aa9-09548f795c83" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Steps/Utils/ExplicitWaits.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/Utils/ExplicitWaits.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+            <state relative-caret-position="51">
+              <caret line="80" column="77" lean-forward="false" selection-start-line="80" selection-start-column="77" selection-end-line="80" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -86,14 +83,14 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
+            <state relative-caret-position="-521">
               <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleResultsPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoogleResultsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -173,10 +170,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Steps/LoginExampleSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Features/GoogleSearch.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/LoginExamplePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleSearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java" />
       </list>
     </option>
   </component>
@@ -759,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542030263016</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="WaitUtil were moved under Pages package">
+      <created>1542030339063</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1542030339063</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -839,7 +843,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add selenium maven dependency&#10;Add Cucumber JVM: PicoContainer maven dependency for hooks&#10;Add WebDriver initialization before scenario&#10;Add navigation to Google page&#10;Add BaseUtil in order to use driver variable from other pages" />
     <MESSAGE value="Locators are moved into separate class" />
     <MESSAGE value="Google Search page and locator complete" />
     <MESSAGE value="TestNG for Assertion&#10;locator link&#10;google results page" />
@@ -864,7 +867,8 @@
     <MESSAGE value="cleaned unused code" />
     <MESSAGE value="POM models for rest of the pages, compiler plugin setup via maven" />
     <MESSAGE value="webElements are private" />
-    <option name="LAST_COMMIT_MESSAGE" value="webElements are private" />
+    <MESSAGE value="WaitUtil were moved under Pages package" />
+    <option name="LAST_COMMIT_MESSAGE" value="WaitUtil were moved under Pages package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1209,22 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GoogleResultsSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1270,6 +1258,22 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521">
+          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hooks/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="80" column="77" lean-forward="false" selection-start-line="80" selection-start-column="77" selection-end-line="80" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
