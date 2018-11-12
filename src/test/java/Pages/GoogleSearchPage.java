@@ -5,12 +5,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GoogleSearchPage {
+
+    WebDriver driver;
+    WebDriverWait explicitWait;
+
 
     public GoogleSearchPage(BaseUtil base){
         //Initialize the page object
         PageFactory.initElements(base.driver, this);
+        driver = base.driver;
+        explicitWait = base.explicitWait;
     }
 
     //@FindBy(id = googleSearchPageLocators.SEARCH_BOX_ID_LOCATOR)
@@ -24,12 +32,23 @@ public class GoogleSearchPage {
     //Business Logic
 
     public void iEnterSearchText(String searchText){
-        //explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.id(googleSearchPageLocators.SEARCH_BOX_ID_LOCATOR)));
+        waitForVisibility(searchBox);
         searchBox.sendKeys(searchText);
     }
 
     public void iPressSearchButton(){
-        //explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath(googleSearchPageLocators.SEARCH_BUTTON_XPATH_LOCATOR)));
+        waitForElementIsClickable(searchButton);
         searchButton.submit();
     }
+
+    private void waitForVisibility(WebElement element) throws Error{
+        new WebDriverWait(driver, 60)
+                .until(ExpectedConditions.visibilityOf(element));
+    }
+
+    private void waitForElementIsClickable(WebElement element) throws Error{
+        new WebDriverWait(driver, 60)
+                .until(ExpectedConditions.elementToBeClickable(element));
+    }
+
 }

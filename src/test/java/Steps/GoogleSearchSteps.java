@@ -6,7 +6,6 @@ import Steps.Base.BaseUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GoogleSearchSteps extends BaseUtil {
 
@@ -18,7 +17,6 @@ public class GoogleSearchSteps extends BaseUtil {
     public GoogleSearchSteps(BaseUtil base){
         this.base = base;
         this.googleSearchPageLocators = new GoogleSearchPageLocators();
-        this.explicitWait=new WebDriverWait(base.driver, 60);
     }
 
     @Given("^I navigate to google search page$")
