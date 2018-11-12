@@ -1,11 +1,44 @@
 package Pages;
 
-import Locators.LoginExamplePageLocators;
 import Steps.Base.BaseUtil;
+import Steps.Utils.ExplicitWaits;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class LoginExamplePage {
+public class LoginExamplePage extends ExplicitWaits {
 
-    //@FindBy(xpath = "")
-    //WebElement
+    WebDriver driver;
+
+    public LoginExamplePage(BaseUtil base){
+        //Initialize the page object
+        PageFactory.initElements(base.driver, this);
+        driver = base.driver;
+    }
+
+    @FindBy(xpath = "//div[contains(text(),'Login')]")
+    public WebElement loginButton;
+
+    @FindBy(xpath = "//input[@name='email']")
+    public WebElement emailInput;
+
+    @FindBy(xpath = "//input[@name='password']")
+    public WebElement passwordInput;
+
+    public void iPressLoginButton(){
+        waitForElementIsClickable(driver, loginButton);
+        loginButton.click();
+    }
+
+    public void iEnterEmail(String email){
+        waitForVisibility(driver, emailInput);
+        emailInput.sendKeys(email);
+    }
+
+    public void iEnterPassword(String password){
+        waitForVisibility(driver, passwordInput);
+        passwordInput.sendKeys(password);
+    }
 }

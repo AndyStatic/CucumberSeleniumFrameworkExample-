@@ -75,7 +75,7 @@ public class Hooks extends BaseUtil {
                 System.out.println("Browser property is not defined");
         }
 
-        //base.driver.manage().window().maximize();
+        base.driver.manage().window().maximize();
         //limits the time that the script allots for a web page to be displayed
         base.driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
 
