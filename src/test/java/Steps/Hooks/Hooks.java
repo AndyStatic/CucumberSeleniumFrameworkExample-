@@ -1,8 +1,11 @@
 package Steps.Hooks;
 
 import Steps.Base.BaseUtil;
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -83,8 +86,11 @@ public class Hooks extends BaseUtil {
     }
 
     @After
-    public void QuitDriver(){
+    public void QuitDriver(Scenario scenario){
 
+        if(scenario.isFailed())
+            scenario.embed(((TakesScreenshot)base.driver).getScreenshotAs(OutputType.BYTES), "image/png");
+        
         //delete all cookies
         base.driver.manage().deleteAllCookies();
         //Closes all browser windows and safely ends the session
