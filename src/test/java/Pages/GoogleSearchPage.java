@@ -1,14 +1,14 @@
 package Pages;
 
 import Steps.Base.BaseUtil;
+import Steps.Utils.ExplicitWaits;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class GoogleSearchPage {
+public class GoogleSearchPage extends ExplicitWaits {
 
     WebDriver driver;
     WebDriverWait explicitWait;
@@ -32,23 +32,13 @@ public class GoogleSearchPage {
     //Business Logic
 
     public void iEnterSearchText(String searchText){
-        waitForVisibility(searchBox);
+        waitForVisibility(driver, searchBox);
         searchBox.sendKeys(searchText);
     }
 
     public void iPressSearchButton(){
-        waitForElementIsClickable(searchButton);
+        waitForElementIsClickable(driver, searchButton);
         searchButton.submit();
-    }
-
-    private void waitForVisibility(WebElement element) throws Error{
-        new WebDriverWait(driver, 60)
-                .until(ExpectedConditions.visibilityOf(element));
-    }
-
-    private void waitForElementIsClickable(WebElement element) throws Error{
-        new WebDriverWait(driver, 60)
-                .until(ExpectedConditions.elementToBeClickable(element));
     }
 
 }
